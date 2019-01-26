@@ -1,0 +1,705 @@
+{
+   "dashboards": [{
+      "autoswitchEnabled": false,
+      "columnCount": 1,
+      "columnProportion": "1-1",
+      "creationTime": 1548536775967,
+      "description": "",
+      "disabled": false,
+      "gridsterMaxColumns": 12,
+      "hidden": false,
+      "homeTab": false,
+      "id": "1ab2693c-6058-46e5-8adc-20c785a83d93",
+      "importAttempts": 0,
+      "importComplete": true,
+      "isDefault": false,
+      "locked": false,
+      "name": "Custom Dashboards/VMware Hot Spots",
+      "namePath": "Custom Dashboards",
+      "rank": 489,
+      "shared": false,
+      "temporary": false,
+      "userId": "dc28bdb0-202a-4747-90fe-842db2ce3987",
+      "widgets": [
+         {
+            "collapsed": false,
+            "config": {
+               "additionalColumns": [],
+               "additionalColumns_resource": [],
+               "barsCount": 10,
+               "depth": 10,
+               "filterMode": "tagFilter",
+               "filterOldMetrics": {"filterOldMetrics": false},
+               "metricOption": {
+                  "metricInfo": {
+                     "path": ["/source/GROUP_cpu/cpu|capacity_usagepct_average"],
+                     "value": "cpu|capacity_usagepct_average"
+                  },
+                  "resourceKindId": ["resourceKind:id:0_::_"],
+                  "tagFilter": null,
+                  "value": {"metricOption": "metricsHighestUtilization"}
+               },
+               "mode": "metric",
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "regenerationTime": 15,
+               "roundDecimals": 1,
+               "selfProvider": {"selfProvider": true},
+               "tagOption": {
+                  "tagFilter": null,
+                  "value": {"tagOption": "leastHealthyApplications"}
+               },
+               "title": "Top 10 Clusters by CPU Utilization (%)"
+            },
+            "gridsterCoords": {
+               "h": 6,
+               "w": 3,
+               "x": 1,
+               "y": 1
+            },
+            "height": 324,
+            "id": "c897b3f0-8590-4040-b0e3-ce891c890e00",
+            "title": "Top 10 Clusters by CPU Utilization (%)",
+            "type": "ParetoAnalysis"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "additionalColumns": [],
+               "additionalColumns_resource": [],
+               "barsCount": 10,
+               "depth": 10,
+               "filterMode": "tagFilter",
+               "filterOldMetrics": {"filterOldMetrics": false},
+               "metricOption": {
+                  "metricInfo": {
+                     "path": ["/source/GROUP_mem/mem|usage_average"],
+                     "value": "mem|usage_average"
+                  },
+                  "resourceKindId": ["resourceKind:id:0_::_"],
+                  "tagFilter": null,
+                  "value": {"metricOption": "metricsHighestUtilization"}
+               },
+               "mode": "metric",
+               "refreshContent": {"refreshContent": false},
+               "refreshInterval": 300,
+               "regenerationTime": 15,
+               "roundDecimals": 1,
+               "selfProvider": {"selfProvider": true},
+               "tagOption": {
+                  "tagFilter": null,
+                  "value": {"tagOption": "leastHealthyApplications"}
+               },
+               "title": "Top 10 Clusters by Memory Consumed (%)"
+            },
+            "gridsterCoords": {
+               "h": 6,
+               "w": 3,
+               "x": 4,
+               "y": 1
+            },
+            "height": 324,
+            "id": "44ada9ae-abbb-4df0-a6ef-18c19b75d6f8",
+            "title": "Top 10 Clusters by Memory Consumed (%)",
+            "type": "ParetoAnalysis"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "additionalColumns": [],
+               "additionalColumns_resource": [],
+               "barsCount": 10,
+               "depth": 10,
+               "filterMode": "tagFilter",
+               "filterOldMetrics": {"filterOldMetrics": false},
+               "metricOption": {
+                  "metricInfo": {
+                     "path": ["/source/GROUP_net/net|usage_average"],
+                     "value": "net|usage_average"
+                  },
+                  "resourceKindId": ["resourceKind:id:0_::_"],
+                  "tagFilter": null,
+                  "value": {"metricOption": "metricsHighestUtilization"}
+               },
+               "mode": "metric",
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "regenerationTime": 15,
+               "roundDecimals": 1,
+               "selfProvider": {"selfProvider": true},
+               "tagOption": {
+                  "tagFilter": null,
+                  "value": {"tagOption": "leastHealthyApplications"}
+               },
+               "title": "Top 10 Clusters by Network Usage (KB/sec)"
+            },
+            "gridsterCoords": {
+               "h": 6,
+               "w": 3,
+               "x": 7,
+               "y": 1
+            },
+            "height": 324,
+            "id": "d745b23d-8003-455b-a198-4f80fadea2e4",
+            "title": "Top 10 Clusters by Network Usage (KB/sec)",
+            "type": "ParetoAnalysis"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "additionalColumns": [],
+               "additionalColumns_resource": [],
+               "barsCount": 10,
+               "depth": 10,
+               "filterMode": "tagFilter",
+               "filterOldMetrics": {"filterOldMetrics": false},
+               "metricOption": {
+                  "metricInfo": {
+                     "path": ["/source/GROUP_cpu/cpu|usage_average"],
+                     "value": "cpu|usage_average"
+                  },
+                  "resourceKindId": ["resourceKind:id:1_::_"],
+                  "tagFilter": null,
+                  "value": {"metricOption": "metricsHighestUtilization"}
+               },
+               "mode": "metric",
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "regenerationTime": 15,
+               "roundDecimals": 1,
+               "selfProvider": {"selfProvider": true},
+               "tagOption": {
+                  "tagFilter": null,
+                  "value": {"tagOption": "leastHealthyApplications"}
+               },
+               "title": "Top 10 ESXi Hosts by CPU Utilization (%)"
+            },
+            "gridsterCoords": {
+               "h": 6,
+               "w": 3,
+               "x": 1,
+               "y": 7
+            },
+            "height": 324,
+            "id": "ae0b7962-86c5-4fca-ba3e-af4b8d88141a",
+            "title": "Top 10 ESXi Hosts by CPU Utilization (%)",
+            "type": "ParetoAnalysis"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "additionalColumns": [],
+               "additionalColumns_resource": [],
+               "barsCount": 10,
+               "depth": 10,
+               "filterMode": "tagFilter",
+               "filterOldMetrics": {"filterOldMetrics": false},
+               "metricOption": {
+                  "metricInfo": {
+                     "path": ["/source/GROUP_mem/mem|usage_average"],
+                     "value": "mem|usage_average"
+                  },
+                  "resourceKindId": ["resourceKind:id:1_::_"],
+                  "tagFilter": null,
+                  "value": {"metricOption": "metricsHighestUtilization"}
+               },
+               "mode": "metric",
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "regenerationTime": 15,
+               "roundDecimals": 1,
+               "selfProvider": {"selfProvider": true},
+               "tagOption": {
+                  "tagFilter": null,
+                  "value": {"tagOption": "leastHealthyApplications"}
+               },
+               "title": "Top 10 ESXi Hosts by Memory Consumed (%)"
+            },
+            "gridsterCoords": {
+               "h": 6,
+               "w": 3,
+               "x": 4,
+               "y": 7
+            },
+            "height": 324,
+            "id": "fd1cf1b9-cf60-4dbd-9c60-cc60e4addf61",
+            "title": "Top 10 ESXi Hosts by Memory Consumed (%)",
+            "type": "ParetoAnalysis"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "additionalColumns": [],
+               "additionalColumns_resource": [],
+               "barsCount": 10,
+               "depth": 10,
+               "filterMode": "tagFilter",
+               "filterOldMetrics": {"filterOldMetrics": false},
+               "metricOption": {
+                  "metricInfo": {
+                     "path": ["/source/GROUP_diskspace/diskspace|total_usage"],
+                     "value": "diskspace|total_usage"
+                  },
+                  "resourceKindId": ["resourceKind:id:0_::_"],
+                  "tagFilter": null,
+                  "value": {"metricOption": "metricsHighestUtilization"}
+               },
+               "mode": "metric",
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "regenerationTime": 15,
+               "roundDecimals": 1,
+               "selfProvider": {"selfProvider": true},
+               "tagOption": {
+                  "tagFilter": null,
+                  "value": {"tagOption": "leastHealthyApplications"}
+               },
+               "title": "Top 10 Clusters by Disk Used (GB)"
+            },
+            "gridsterCoords": {
+               "h": 6,
+               "w": 3,
+               "x": 10,
+               "y": 1
+            },
+            "height": 324,
+            "id": "c502a84f-2c75-49d7-a046-02fc41d06638",
+            "title": "Top 10 Clusters by Disk Used (GB)",
+            "type": "ParetoAnalysis"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "additionalColumns": [],
+               "additionalColumns_resource": [],
+               "barsCount": 10,
+               "depth": 10,
+               "filterMode": "tagFilter",
+               "filterOldMetrics": {"filterOldMetrics": false},
+               "metricOption": {
+                  "metricInfo": {
+                     "path": ["/source/GROUP_diskspace/diskspace|used"],
+                     "value": "diskspace|used"
+                  },
+                  "resourceKindId": ["resourceKind:id:2_::_"],
+                  "tagFilter": null,
+                  "value": {"metricOption": "metricsHighestUtilization"}
+               },
+               "mode": "metric",
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "regenerationTime": 15,
+               "roundDecimals": 1,
+               "selfProvider": {"selfProvider": true},
+               "tagOption": {
+                  "tagFilter": null,
+                  "value": {"tagOption": "leastHealthyApplications"}
+               },
+               "title": "Top 10 VMs by Disk Used (GB)"
+            },
+            "gridsterCoords": {
+               "h": 6,
+               "w": 3,
+               "x": 10,
+               "y": 13
+            },
+            "height": 324,
+            "id": "a5ffc62f-507d-4a88-9420-2a646c9ff128",
+            "title": "Top 10 VMs by Disk Used (GB)",
+            "type": "ParetoAnalysis"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "additionalColumns": [],
+               "additionalColumns_resource": [],
+               "barsCount": 10,
+               "depth": 10,
+               "filterMode": "tagFilter",
+               "filterOldMetrics": {"filterOldMetrics": false},
+               "metricOption": {
+                  "metricInfo": {
+                     "path": ["/source/GROUP_mem/mem|usage_average"],
+                     "value": "mem|usage_average"
+                  },
+                  "resourceKindId": ["resourceKind:id:2_::_"],
+                  "tagFilter": null,
+                  "value": {"metricOption": "metricsHighestUtilization"}
+               },
+               "mode": "metric",
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "regenerationTime": 15,
+               "roundDecimals": 1,
+               "selfProvider": {"selfProvider": true},
+               "tagOption": {
+                  "tagFilter": null,
+                  "value": {"tagOption": "leastHealthyApplications"}
+               },
+               "title": "Top 10 VMs by Memory Consumed (%)"
+            },
+            "gridsterCoords": {
+               "h": 6,
+               "w": 3,
+               "x": 4,
+               "y": 13
+            },
+            "height": 324,
+            "id": "09857ae8-c308-4ecc-862d-49a42c2ff935",
+            "title": "Top 10 VMs by Memory Consumed (%)",
+            "type": "ParetoAnalysis"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "additionalColumns": [],
+               "additionalColumns_resource": [],
+               "barsCount": 10,
+               "depth": 10,
+               "filterMode": "tagFilter",
+               "filterOldMetrics": {"filterOldMetrics": false},
+               "metricOption": {
+                  "metricInfo": {
+                     "path": ["/source/GROUP_diskspace/diskspace|total_usage"],
+                     "value": "diskspace|total_usage"
+                  },
+                  "resourceKindId": ["resourceKind:id:1_::_"],
+                  "tagFilter": null,
+                  "value": {"metricOption": "metricsHighestUtilization"}
+               },
+               "mode": "metric",
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "regenerationTime": 15,
+               "roundDecimals": 1,
+               "selfProvider": {"selfProvider": true},
+               "tagOption": {
+                  "tagFilter": null,
+                  "value": {"tagOption": "leastHealthyApplications"}
+               },
+               "title": "Top 10 ESXi Hosts by Disk Used (GB)"
+            },
+            "gridsterCoords": {
+               "h": 6,
+               "w": 3,
+               "x": 10,
+               "y": 7
+            },
+            "height": 324,
+            "id": "f81eb75d-13eb-4f4f-849a-a8505db5f593",
+            "title": "Top 10 ESXi Hosts by Disk Used (GB)",
+            "type": "ParetoAnalysis"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "additionalColumns": [],
+               "additionalColumns_resource": [],
+               "barsCount": 10,
+               "depth": 10,
+               "filterMode": "tagFilter",
+               "filterOldMetrics": {"filterOldMetrics": false},
+               "metricOption": {
+                  "metricInfo": {
+                     "path": ["/source/GROUP_net/net|usage_average"],
+                     "value": "net|usage_average"
+                  },
+                  "resourceKindId": ["resourceKind:id:1_::_"],
+                  "tagFilter": null,
+                  "value": {"metricOption": "metricsHighestUtilization"}
+               },
+               "mode": "metric",
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "regenerationTime": 15,
+               "roundDecimals": 1,
+               "selfProvider": {"selfProvider": true},
+               "tagOption": {
+                  "tagFilter": null,
+                  "value": {"tagOption": "leastHealthyApplications"}
+               },
+               "title": "Top 10 ESXi Hosts Network Usage (KB/sec)"
+            },
+            "gridsterCoords": {
+               "h": 6,
+               "w": 3,
+               "x": 7,
+               "y": 7
+            },
+            "height": 324,
+            "id": "e284a749-ee85-4bff-91cc-61ad4b307958",
+            "title": "Top 10 ESXi Hosts Network Usage (KB/sec)",
+            "type": "ParetoAnalysis"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "additionalColumns": [],
+               "additionalColumns_resource": [],
+               "barsCount": 10,
+               "depth": 10,
+               "filterMode": "tagFilter",
+               "filterOldMetrics": {"filterOldMetrics": false},
+               "metricOption": {
+                  "metricInfo": {
+                     "path": ["/source/GROUP_net/net|usage_average"],
+                     "value": "net|usage_average"
+                  },
+                  "resourceKindId": ["resourceKind:id:2_::_"],
+                  "tagFilter": null,
+                  "value": {"metricOption": "metricsHighestUtilization"}
+               },
+               "mode": "metric",
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "regenerationTime": 15,
+               "roundDecimals": 1,
+               "selfProvider": {"selfProvider": true},
+               "tagOption": {
+                  "tagFilter": null,
+                  "value": {"tagOption": "leastHealthyApplications"}
+               },
+               "title": "Top 10 VMs by Network Usage (KB/sec)"
+            },
+            "gridsterCoords": {
+               "h": 6,
+               "w": 3,
+               "x": 7,
+               "y": 13
+            },
+            "height": 324,
+            "id": "9d266cce-d47c-4672-9f3d-cd7a2daba3d8",
+            "title": "Top 10 VMs by Network Usage (KB/sec)",
+            "type": "ParetoAnalysis"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "additionalColumns": [],
+               "additionalColumns_resource": [],
+               "barsCount": 10,
+               "depth": 10,
+               "filterMode": "tagFilter",
+               "filterOldMetrics": {"filterOldMetrics": false},
+               "metricOption": {
+                  "metricInfo": {
+                     "path": ["/source/GROUP_cpu/cpu|usage_average"],
+                     "value": "cpu|usage_average"
+                  },
+                  "resourceKindId": ["resourceKind:id:2_::_"],
+                  "tagFilter": null,
+                  "value": {"metricOption": "metricsHighestUtilization"}
+               },
+               "mode": "metric",
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "regenerationTime": 15,
+               "roundDecimals": 1,
+               "selfProvider": {"selfProvider": true},
+               "tagOption": {
+                  "tagFilter": null,
+                  "value": {"tagOption": "leastHealthyApplications"}
+               },
+               "title": "Top 10 VMs by CPU Utilization (%)"
+            },
+            "gridsterCoords": {
+               "h": 6,
+               "w": 3,
+               "x": 1,
+               "y": 13
+            },
+            "height": 324,
+            "id": "4d9e6bd0-3926-4839-9886-ae1419dbf88a",
+            "title": "Top 10 VMs by CPU Utilization (%)",
+            "type": "ParetoAnalysis"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "additionalColumns": [],
+               "additionalColumns_resource": [],
+               "barsCount": 10,
+               "depth": 10,
+               "filterMode": "tagFilter",
+               "filterOldMetrics": {"filterOldMetrics": false},
+               "metricOption": {
+                  "metricInfo": {
+                     "path": ["/source/GROUP_capacity/capacity|usedSpacePct"],
+                     "value": "capacity|usedSpacePct"
+                  },
+                  "resourceKindId": ["resourceKind:id:3_::_"],
+                  "tagFilter": null,
+                  "value": {"metricOption": "metricsHighestUtilization"}
+               },
+               "mode": "metric",
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "regenerationTime": 15,
+               "roundDecimals": 1,
+               "selfProvider": {"selfProvider": true},
+               "tagOption": {
+                  "tagFilter": null,
+                  "value": {"tagOption": "leastHealthyApplications"}
+               },
+               "title": "Top 10 Datastores by Used Space (%)"
+            },
+            "gridsterCoords": {
+               "h": 6,
+               "w": 3,
+               "x": 1,
+               "y": 19
+            },
+            "height": 324,
+            "id": "bfc5a0b5-ac69-4d95-8b78-e45c2d17cd16",
+            "title": "Top 10 Datastores by Used Space (%)",
+            "type": "ParetoAnalysis"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "additionalColumns": [],
+               "additionalColumns_resource": [],
+               "barsCount": 10,
+               "depth": 10,
+               "filterMode": "tagFilter",
+               "filterOldMetrics": {"filterOldMetrics": false},
+               "metricOption": {
+                  "metricInfo": {
+                     "path": ["/source/GROUP_datastore/datastore|usage_average"],
+                     "value": "datastore|usage_average"
+                  },
+                  "resourceKindId": ["resourceKind:id:3_::_"],
+                  "tagFilter": null,
+                  "value": {"metricOption": "metricsHighestUtilization"}
+               },
+               "mode": "metric",
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "regenerationTime": 15,
+               "roundDecimals": 1,
+               "selfProvider": {"selfProvider": true},
+               "tagOption": {
+                  "tagFilter": null,
+                  "value": {"tagOption": "leastHealthyApplications"}
+               },
+               "title": "Top 10 Datastores by Total Throughput (KB/sec)"
+            },
+            "gridsterCoords": {
+               "h": 6,
+               "w": 3,
+               "x": 4,
+               "y": 19
+            },
+            "height": 324,
+            "id": "435520b3-17d7-41df-9d4d-847a62b37bd9",
+            "title": "Top 10 Datastores by Total Throughput (KB/sec)",
+            "type": "ParetoAnalysis"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "additionalColumns": [],
+               "additionalColumns_resource": [],
+               "barsCount": 10,
+               "depth": 10,
+               "filterMode": "tagFilter",
+               "filterOldMetrics": {"filterOldMetrics": false},
+               "metricOption": {
+                  "metricInfo": {
+                     "path": ["/source/GROUP_datastore/datastore|totalLatency_average"],
+                     "value": "datastore|totalLatency_average"
+                  },
+                  "resourceKindId": ["resourceKind:id:3_::_"],
+                  "tagFilter": null,
+                  "value": {"metricOption": "metricsHighestUtilization"}
+               },
+               "mode": "metric",
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "regenerationTime": 15,
+               "roundDecimals": 1,
+               "selfProvider": {"selfProvider": true},
+               "tagOption": {
+                  "tagFilter": null,
+                  "value": {"tagOption": "leastHealthyApplications"}
+               },
+               "title": "Top 10 Datastores by Total Latency (ms)"
+            },
+            "gridsterCoords": {
+               "h": 6,
+               "w": 3,
+               "x": 7,
+               "y": 19
+            },
+            "height": 324,
+            "id": "966d7ec2-1d67-4cd5-8a15-ee993fe085fe",
+            "title": "Top 10 Datastores by Total Latency (ms)",
+            "type": "ParetoAnalysis"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "additionalColumns": [],
+               "additionalColumns_resource": [],
+               "barsCount": 10,
+               "depth": 10,
+               "filterMode": "tagFilter",
+               "filterOldMetrics": {"filterOldMetrics": false},
+               "metricOption": {
+                  "metricInfo": {
+                     "path": ["/source/GROUP_datastore/datastore|demand_oio"],
+                     "value": "datastore|demand_oio"
+                  },
+                  "resourceKindId": ["resourceKind:id:3_::_"],
+                  "tagFilter": null,
+                  "value": {"metricOption": "metricsHighestUtilization"}
+               },
+               "mode": "metric",
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "regenerationTime": 15,
+               "roundDecimals": 1,
+               "selfProvider": {"selfProvider": true},
+               "tagOption": {
+                  "tagFilter": null,
+                  "value": {"tagOption": "leastHealthyApplications"}
+               },
+               "title": "Top 10 Datastores by Outstanding IO Requests"
+            },
+            "gridsterCoords": {
+               "h": 6,
+               "w": 3,
+               "x": 10,
+               "y": 19
+            },
+            "height": 324,
+            "id": "dddef305-8ab5-4b19-b694-62d4b9481993",
+            "title": "Top 10 Datastores by Outstanding IO Requests",
+            "type": "ParetoAnalysis"
+         }
+      ]
+   }],
+   "entries": {"resourceKind": [
+      {
+         "adapterKindKey": "VMWARE",
+         "internalId": "resourceKind:id:1_::_",
+         "resourceKindKey": "HostSystem"
+      },
+      {
+         "adapterKindKey": "VMWARE",
+         "internalId": "resourceKind:id:2_::_",
+         "resourceKindKey": "VirtualMachine"
+      },
+      {
+         "adapterKindKey": "VMWARE",
+         "internalId": "resourceKind:id:0_::_",
+         "resourceKindKey": "ClusterComputeResource"
+      },
+      {
+         "adapterKindKey": "VMWARE",
+         "internalId": "resourceKind:id:3_::_",
+         "resourceKindKey": "Datastore"
+      }
+   ]},
+   "uuid": "618faf7c-bacf-4bdd-848b-e4a2c7eab0e7"
+}
